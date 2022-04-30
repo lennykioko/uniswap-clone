@@ -5,7 +5,7 @@ import Main from '../components/Main'
 import TransactionHistory from '../components/TransactionHistory'
 
 const style = {
-  wrapper: `h-screen max-h-screen h-min-screen w-screen bg-[#2D242F] text-white select-none flex flex-col justify-between`,
+  wrapper: `h-min-screen h-screen w-min-screen w-screen bg-[#2D242F] text-white select-none flex flex-col justify-between overflow-scroll`,
 }
 
 const Home: NextPage = () => {
